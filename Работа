@@ -1,0 +1,48 @@
+Example.java
+/*
+Это простая программа на Java.
+Присвоить исходному файлу имя "Example.java"
+*/ - многострочные комментарии
+class Example {
+// Эта программа начинается с вызова метода main - однострочный комментарий
+public static void main (string args []) {
+System.out.println("Простая программа на java") {
+}
+}
+
+
+Example2.java
+class Example2 {
+public static void main(String args[]) {
+int num; // в этой строке кода объявляется переменная с именем num
+num = 100; // в этой строке кода переменной num присваивается значение 100
+System.out.println("Это переменная num: " +num);
+num = num * 2;
+System.out.print("Значение переменной num * 2 равно ");
+System.out.printl(num);
+}
+}
+
+Оператор if
+class ifSample {
+public static void main(String argsp[]) {
+int x,y;
+x=10;
+y=20;
+if(x<y) 
+System.out.println("x меньше y");
+x=x*2;
+if(x==y) 
+System.out.println("x теперь равно y");
+x=x*2;
+if(x>y) 
+System.out.println ("x теперь больше y");
+// этот оператор не будет ничего выводить
+if(x==y) 
+System.out.println ("Вы не увидите этого");
+}
+}
+Эта программа выводит следующий результат: 
+х меньше у 
+х теперь равно у 
+х теперь больше у 
